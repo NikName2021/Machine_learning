@@ -29,4 +29,4 @@ def download_mnist():
     examples = enumerate(test_loader)
     batch_idx, (example_data, example_targets) = next(examples)
     # return example_data, example_targets
-    return train_loader, example_data
+    return train_loader, example_data, test_loader
